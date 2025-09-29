@@ -12,7 +12,7 @@ ports:
   "3000/tcp": 3000
 webui: "http://jajoe.xyz:3000/"
 environment:
-  USERNAME: "admin"        # ändere
+  USERNAME: "muasconnect"        # ändere
   PASSWORD: "SehrStark!"   # ändere
 panel_icon: "mdi:amazon-alexa"
 panel_title: "Alexa API"
