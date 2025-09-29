@@ -10,7 +10,7 @@ boot: manual
 image: "ghcr.io/alams154/music-assistant-alexa-api:latest"
 ports:
   "3000/tcp": 3000
-webui: "http://jajoe.xyz:3000/"
+webui: "http://[HOST]:[PORT:3000]/"
 environment:
   USERNAME: "muasconnect"        # ändere
   PASSWORD: "SehrStark!"   # ändere
