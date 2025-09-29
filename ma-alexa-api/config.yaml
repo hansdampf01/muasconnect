@@ -1,0 +1,18 @@
+name: "Music Assistant Alexa API Bridge"
+version: "1.0.0"
+slug: "ma_alexa_api"
+description: "Alexa API Bridge for Music Assistant (pulls prebuilt image)"
+arch:
+  - aarch64
+  - amd64
+startup: application
+boot: manual
+image: "ghcr.io/alams154/music-assistant-alexa-api:latest"
+ports:
+  "3000/tcp": 3000
+webui: "http://jajoe.xyz:3000/"
+environment:
+  USERNAME: "admin"        # ändere
+  PASSWORD: "SehrStark!"   # ändere
+panel_icon: "mdi:amazon-alexa"
+panel_title: "Alexa API"
